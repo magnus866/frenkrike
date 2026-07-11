@@ -40,6 +40,18 @@ All agents must utilize the following baseline data for market comparisons and d
     * Apartment (3 bedrooms): E/E.
 * **Heating/Utilities:** Oil-fired tank system with 2 boilers; individual sanitation system with simple septic tank pre-treatment.
 
+### Solar Development Project (Inquiry Stage)
+* **Status:** Feasibility inquiry submitted to the grid operator (Enedis/RTE) for ground-mounted photovoltaics (photovoltaïque au sol) to evaluate technical and economic feasibility as a condition of the acquisition.
+* **Property Sector:** Thézan-des-Corbières, Aude.
+* **Power Scenarios under study:** 1 MW, 3 MW, 5 MW, 10 MW, and >10 MW.
+* **Inquiry Key Points:**
+    * Available connection capacity on identified grid lines.
+    * Required voltage levels.
+    * Potential for splitting capacity across two connection points.
+    * Option to construct a dedicated transformer station.
+    * Location and distance to the nearest connection point.
+    * Timeframe for technical orientation and formal studies.
+
 ### Historical Context
 * **Origins:** Dates back to AD 800; charter confirmed by Charles II the Bald in 859.
 * **Evolution:** Feudal castle abandoned in the 15th century; new château built in the 19th century. Operated as guest accommodation in the 20th century.

@@ -833,3 +833,16 @@ footer a:hover {
     transform: scale(1.02);
     border-color: var(--accent-gold-border);
 }
+
+/* Details / Summary Styles */
+details[open] .details-icon {
+    transform: rotate(180deg);
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details summary {
+    list-style: none;
+}
