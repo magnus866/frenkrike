@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap');
 
+@view-transition {
+    navigation: auto;
+}
+
 :root {
     --bg-primary: #070a13;
     --bg-secondary: #0f1524;
@@ -670,8 +674,7 @@ section {
 
 .scouting-map {
     width: 100%;
-    height: 250px;
-    background: linear-gradient(135deg, #101625 0%, #1c263d 100%);
+    height: 320px;
     border: 1px solid var(--border-soft);
     border-radius: 12px;
     position: relative;
@@ -681,36 +684,16 @@ section {
     justify-content: center;
 }
 
-.map-placeholder {
-    text-align: center;
-    color: var(--text-muted);
+.scouting-map img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition-smooth);
 }
 
-.map-pin {
-    width: 12px;
-    height: 12px;
-    background: var(--accent-gold);
-    border-radius: 50%;
-    position: absolute;
-    box-shadow: 0 0 10px var(--accent-gold);
-    animation: glowPulse 2s infinite ease-in-out;
+.scouting-map:hover img {
+    transform: scale(1.03);
 }
-
-.pin-narbonne { top: 55%; left: 45%; }
-.pin-carcassonne { top: 50%; left: 30%; }
-.pin-perpignan { top: 75%; left: 42%; }
-
-.map-label {
-    position: absolute;
-    color: #ffffff;
-    font-size: 0.75rem;
-    font-family: var(--font-heading);
-    font-weight: 500;
-}
-
-.label-narbonne { top: 50%; left: 48%; }
-.label-carcassonne { top: 45%; left: 32%; }
-.label-perpignan { top: 70%; left: 45%; }
 
 /* Technical Workflow & Footer */
 .workflow-section {
@@ -800,4 +783,20 @@ footer a {
 
 footer a:hover {
     color: var(--accent-gold);
+}
+
+/* Agent Card Images & Additional Custom Layouts */
+.agent-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--border-soft);
+    transition: var(--transition-smooth);
+}
+
+.agent-card:hover .agent-card-image {
+    transform: scale(1.02);
+    border-color: var(--accent-gold-border);
 }

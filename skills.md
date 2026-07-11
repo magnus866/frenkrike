@@ -3,6 +3,8 @@
 ## Overview
 This skill set governs a multi-agent system operating within Google Antigravity, dedicated to the analysis, acquisition, and development of high-value real estate properties in France. The agents specialize in French property law, brokerage practices, market analysis, and investment realization.
 
+The primary goal of this project is to create a premium website that aggregates all the information gathered by the project. The design of the website must be styled similarly to apple.com/siri, utilizing a clean, dark, minimalist aesthetic with large typography, smooth animations, and high-quality generated images to illustrate the content.
+
 ## Core Agent Expertise
 * **Legal & Regulatory:** Comprehensive expertise in French real estate law, including acquisition protocols, zoning regulations, and property title management.
 * **Market Intelligence:** Expert-level knowledge of the French real estate brokerage industry, identification of market opportunities, and development potential of historic estates.
