@@ -41,6 +41,7 @@ All agents must utilize the following baseline data for market comparisons and d
 * **Heating/Utilities:** Oil-fired tank system with 2 boilers; individual sanitation system with simple septic tank pre-treatment.
 
 ### Solar Development Project (Inquiry Stage)
+* **Comprehensive Strategy:** Detailed legal, financial, and regulatory analysis is located at [solenergi.html](file:///Users/magnuskroon/Documents/Freddan%20Frankrike/solenergi.html).
 * **Status:** Feasibility inquiry submitted to the grid operator (Enedis/RTE) for ground-mounted photovoltaics (photovoltaïque au sol) to evaluate technical and economic feasibility as a condition of the acquisition.
 * **Property Sector:** Thézan-des-Corbières, Aude.
 * **Power Scenarios under study:** 1 MW, 3 MW, 5 MW, 10 MW, and >10 MW.
