@@ -13,9 +13,13 @@
     <header>
         <div class="nav-container">
             <a href="index.html" class="logo">
-                Frankrike <span>- beslutsunderlag för förvärv eller inte</span>
-                <span class="logo-badge">AGY Active</span>
+                Frankrike <span>Beslutsunderlag</span>
             </a>
+            <button class="hamburger-btn" aria-label="Menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <nav>
                 <ul>
                     <li><a href="index.html">Översikt</a></li>
@@ -142,5 +146,12 @@
         </div>
     </footer>
 
+    <!-- Toggle Menu Script -->
+    <script>
+        function toggleMenu() {
+            document.querySelector('nav').classList.toggle('active');
+            document.querySelector('header').classList.toggle('header-active');
+        }
+    </script>
 </body>
 </html>
