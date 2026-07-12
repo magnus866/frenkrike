@@ -57,5 +57,12 @@ All agents must utilize the following baseline data for market comparisons and d
 * **Origins:** Dates back to AD 800; charter confirmed by Charles II the Bald in 859.
 * **Evolution:** Feudal castle abandoned in the 15th century; new château built in the 19th century. Operated as guest accommodation in the 20th century.
 
+## Strategic Principles & Ownership Model
+* **Acquisition Principle:** The property is acquired under the principle that **Family Jansson acquires** the property and **Family Kroon is on the journey** (med på resan).
+* **Target Pricing & Upside:** The property must be acquired at the **lowest possible price** to minimize downside risk. However, it holds massive business opportunities with an enormous upside, which is unlocked and created by the specific **skills and dedicated engagement** of the families entering the project.
+* **Core Objectives:** The primary purposes of the project are to achieve **self-sufficiency** (självförsörjning in food, energy, water) and to secure a high **quality of life** (livskvalitet) for the families.
+* **Involvement of Children:** It is critical that the **children are involved** in a positive, educational, and adventurous way (äventyrligt och utvecklande), making the estate a playground for learning, nature, and responsibility.
+* **Local Networking:** The project is committed to building **strong local networks** (bygga lokala nätverk) and community value through fine and engaged work, rather than just building isolated value for the owners.
+
 ## Market Scouting Requirement
 Agents are required to perform continuous scanning for comparable properties within France. This data will be integrated to refine acquisition models and validate investment potential. All comparative property data and ongoing development code must be maintained within the `frenkrike` repository.
