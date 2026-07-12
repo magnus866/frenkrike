@@ -207,29 +207,48 @@
                 <p>Situationsplan och officiell fastighetskarta över de 307 hektaren i Thézan-des-Corbières.</p>
             </div>
 
-            <div class="showcase-container" style="grid-template-columns: 1.2fr 1fr; gap: 3.5rem; align-items: center;">
+            <div style="display: flex; flex-direction: column; gap: 2rem;">
                 
-                <!-- Cadastral Map Visual -->
-                <div class="property-visual">
-                    <img src="assets/images/cadastral_map.png" class="property-image" alt="Cadastral Map of Château Corbières">
-                    <div class="property-label">
-                        <h4>Cadastre - Thézan-des-Corbières</h4>
-                        <p>Totalareal: 307 ha 02 a 75 ca</p>
+                <!-- Double Map Grid -->
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap: 2rem; width: 100%;">
+                    
+                    <!-- Master Plan Visual -->
+                    <div class="property-visual" style="border-radius: 16px; overflow: hidden; border: 1px solid var(--border-soft); height: 500px;">
+                        <img src="assets/images/domaine_de_donos_brochure.jpg" class="property-image" alt="Drifts- &amp; Masterplan för Domaine de Donos" style="object-position: center; object-fit: cover;">
+                        <div class="property-label">
+                            <h4>Drifts- &amp; Masterplan</h4>
+                            <p>Placering av hotell, restaurang, spa, stugor och solceller</p>
+                        </div>
                     </div>
+
+                    <!-- Natura 2000 ZSC/ZPS Zones Visual -->
+                    <div class="property-visual" style="border-radius: 16px; overflow: hidden; border: 1px solid var(--border-soft); height: 500px;">
+                        <img src="assets/images/domaine_de_donos_map.jpg" class="property-image" alt="Natura 2000-skyddszoner för Domaine de Donos" style="object-position: center; object-fit: cover;">
+                        <div class="property-label">
+                            <h4>Natura 2000-zoner (ZSC &amp; ZPS)</h4>
+                            <p>Grön: Habitatdirektivet | Blå: Fågeldirektivet</p>
+                        </div>
+                    </div>
+
                 </div>
 
-                <!-- Text / Description of Cadastre -->
-                <div>
-                    <h3 style="font-size: 1.8rem; color: #fff; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                <!-- Text / Description of Cadastre and Natura 2000 split -->
+                <div style="margin-top: 1rem;">
+                    <h3 style="font-size: 1.8rem; color: #fff; margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.5rem; border-bottom: 1px solid var(--border-soft); padding-bottom: 0.5rem;">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-                        Officiell situationsplan
+                        Officiell situationsplan &amp; Miljöskydd: Domaine de Donos
                     </h3>
                     <p style="color: var(--text-secondary); margin-bottom: 1.25rem; line-height: 1.7;">
-                        Bilden visar de exakta fastighetsgränserna (markerade i rött) för de skilda skiftena som utgör Château Corbières. Fastighetens sammanhängande huvuddel omfattar slottet, Bastiden, gårdsbyggnaderna samt det omgivande åkermarksområdet och den privata dammen.
+                        Fastigheten heter officiellt **Domaine de Donos** (även marknadsförd som Château Corbières). Masterplanen (vänster) visar den sammanhängande strukturen runt den privata dammen med slottet, restaurangen, spa-avdelningen och utspridda gäststugor. Detaljanalysen av elnätet visar att en **20 kV luftledning** (HTA) och en **transformatorstation** löper längs den östra gränsen vid vägen, vilket ger omedelbara och kostnadseffektiva anslutningspunkter för både elinfrastruktur och den planerade solcellsparken.
                     </p>
-                    <p style="color: var(--text-secondary); line-height: 1.7;">
-                        Utöver huvudområdet ingår ett antal strategiskt belägna mindre skiften i närområdet. Denna detaljerade uppdelning utgör underlaget för SAFER-granskningen och den pågående utredningen om nätanslutning för solcellsparken.
+                    <p style="color: var(--text-secondary); margin-bottom: 1.25rem; line-height: 1.7;">
+                        Natura 2000-analysen (höger) visar att **250 hektar (81,4 % av totalarealen)** omfattas av skyddsbestämmelser:
                     </p>
+                    <ul style="color: var(--text-secondary); padding-left: 1.2rem; display: flex; flex-direction: column; gap: 0.6rem; font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem;">
+                        <li><strong>ZSC – Habitatdirektivet (Grön):</strong> Omfattar ca **120 – 150 hektar** (~39 – 49 %). Täcker huvudsakligen de skogsklädda och betade delarna i norr (Le Bois de Donos) och söder (Les Aiguilloux).</li>
+                        <li><strong>ZPS – Fågeldirektivet (Blå):</strong> Omfattar ca **130 – 160 hektar** (~42 – 52 %). Överlappar delvis habitatdirektivet och täcker hedområdena i väst och öster.</li>
+                        <li><strong>Utanför Natura 2000 (Oreglerad mark):</strong> Omfattar ca **50 – 70 hektar** (~16 – 23 %). Det är inom denna oreglerade areal som slottet, Bastiden, dammen och de två planerade solcellsparkerna (Solpark Nord på 10–15 ha, och Solpark Syd på 5–15 ha) är placerade, vilket innebär att de inte belastas av Natura 2000-byggrestriktioner.</li>
+                    </ul>
                 </div>
 
             </div>
