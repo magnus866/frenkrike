@@ -31,7 +31,7 @@ All agents must utilize the following baseline data for market comparisons and d
 
 ### Financial & Technical Data
 * **Pricing:** Asking price of €2,995,000 (agency fees included) or €2,825,472 (agency fees excluded); agency fees are 6% incl. VAT.
-* **Annual Taxes/Costs:** Property tax €9,550; energy consumption €2,600/year.
+* **Annual Taxes/Costs:** Property tax €9,550; actual energy consumption estimated between €38,233 and €51,725/year (Barnes Dossier DPE/EPC).
 * **Energy Performance (EPC):**
     * Château: E/E.
     * Bastide: E/E.
