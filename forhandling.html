@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Förhandlingsunderlag &amp; Pitch-dossier — Château Corbières</title>
+    <meta name="description" content="Statistiskt förhandlingsunderlag och marknadsjämförelse för Château Corbières. Argumentation gällande Natura 2000, vinodlingens avveckling och den lokala värdeökningen.">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                Frankrike <span>Beslutsunderlag</span>
+            </a>
+            <button class="hamburger-btn" aria-label="Menu" onclick="toggleMenu()" id="hamburger-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav id="main-navigation">
+                <ul>
+                    <li><a href="index.html">Översikt</a></li>
+                    <li><a href="agenter.html">Agenter</a></li>
+                    <li><a href="corbieres.html">Egendomen</a></li>
+                    <li><a href="scouting.html">Marknadsanalys</a></li>
+                    <li><a href="forhandling.html">Förhandlingsunderlag</a></li>
+                    <li><a href="forhandling.html" class="active">Förhandlingsunderlag</a></li>
+                    <li><a href="fastighetsutveckling.html">Utveckling</a></li>
+                    <li><a href="verksamheter.html">Verksamheter</a></li>
+                    <li><a href="jordbruk.html">Jordbruk</a></li>
+                    <li><a href="affarsutveckling.html">Affärsutveckling</a></li>
+                    <li><a href="forvarvsprocess.html">Förvärvsprocess</a></li>
+                    <li><a href="regelverk.html">Regelverk</a></li>
+                    <li><a href="subventioner.html">Bidragsanalys</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Subpage Hero -->
+    <section class="hero" id="negotiation-hero" style="min-height: 40vh; padding: 6rem 2rem 2rem 2rem; background: radial-gradient(circle at top, rgba(212,175,55,0.05), transparent 50%), var(--bg-primary);">
+        <div class="hero-content animate-fade-in-up" style="max-width: 900px; margin: 0 auto; text-align: center;">
+            <div class="hero-tag" style="background: rgba(212, 175, 55, 0.1); border-color: var(--accent-gold);">Förhandlingsdossier</div>
+            <h1 style="font-size: 2.8rem; margin-top: 0.5rem;">Förhandlingsunderlag &amp; Pitch-dossier</h1>
+            <p style="margin-top: 1rem; font-size: 1.1rem; color: var(--text-secondary); max-width: 750px; margin-left: auto; margin-right: auto;">
+                Ett strategiskt verktyg för att förhandla ner priset på Château Corbières hos mäklaren Olivier Brunet (Barnes). Baserat på statistiska marknadsjämförelser, Natura 2000-begränsningar och köparnas lokala investeringsnarrativ.
+            </p>
+        </div>
+    </section>
+
+    <!-- Section 1: Valuation Deficit & CMA -->
+    <section id="market-comparison" style="padding: 4rem 2rem; border-top: 1px solid var(--border-soft); background: rgba(15, 21, 36, 0.25);">
+        <div class="section-container">
+            <div class="section-header" style="margin-bottom: 3.5rem;">
+                <h2>Statistisk Marknadsanalys (CMA)</h2>
+                <p>Jämförelse med andra châteaux och herrgårdar i Occitanie visar att utgångspriset på €2 995 000 behöver justeras baserat på begränsningar och historiskt eftersatt underhåll.</p>
+            </div>
+
+            <!-- Key Figures / Statistical Deficit -->
+            <div class="specs-grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-bottom: 3.5rem;" id="negotiation-stats">
+                <div class="spec-item" style="border-left: 3px solid #ff7675;">
+                    <span class="spec-title">Natura 2000 Discount</span>
+                    <span class="spec-value">- €250 000</span>
+                    <span style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">250 ha obyggbar hedområde (garrigue)</span>
+                </div>
+                <div class="spec-item" style="border-left: 3px solid #ff7675;">
+                    <span class="spec-title">Vinkällare Renoveringsdeficit</span>
+                    <span class="spec-value">- €600 000</span>
+                    <span style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">Ej fungerande produktion, tomma lokaler</span>
+                </div>
+                <div class="spec-item" style="border-left: 3px solid var(--accent-gold);">
+                    <span class="spec-title">Statistiskt Rättvist Pris</span>
+                    <span class="spec-value">€2 500 000</span>
+                    <span style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">Budintervall: €2,5M – €2,7M</span>
+                </div>
+                <div class="spec-item" style="border-left: 3px solid #2ecc71;">
+                    <span class="spec-title">Privat CapEx-åtagande</span>
+                    <span class="spec-value">+ €650 000</span>
+                    <span style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">Gröna investeringar (VVS, hotell, lantbruk)</span>
+                </div>
+            </div>
+
+            <!-- Detailed Comparable Table -->
+            <div style="overflow-x: auto; background: var(--bg-secondary); border: 1px solid var(--border-soft); border-radius: 16px; padding: 1.5rem; margin-bottom: 3rem;">
+                <table class="detail-table" style="margin-top: 0; min-width: 800px;" id="cma-comparables-table">
+                    <thead>
+                        <tr style="border-bottom: 2px solid var(--accent-gold-border);">
+                            <th style="text-align: left; padding: 1rem 0.5rem; color: var(--accent-gold); font-family: var(--font-heading); font-size: 1rem; width: 22%;">Fastighet / Läge</th>
+                            <th style="text-align: left; padding: 1rem 0.5rem; color: var(--accent-gold); font-family: var(--font-heading); font-size: 1rem; width: 14%;">Pris</th>
+                            <th style="text-align: left; padding: 1rem 0.5rem; color: var(--accent-gold); font-family: var(--font-heading); font-size: 1rem; width: 14%;">Total Mark</th>
+                            <th style="text-align: left; padding: 1rem 0.5rem; color: var(--accent-gold); font-family: var(--font-heading); font-size: 1rem; width: 15%;">Brukningsbar Mark</th>
+                            <th style="text-align: left; padding: 1rem 0.5rem; color: var(--accent-gold); font-family: var(--font-heading); font-size: 1rem; width: 15%;">Boarea / Skick</th>
+                            <th style="text-align: left; padding: 1rem 0.5rem; color: var(--accent-gold); font-family: var(--font-heading); font-size: 1rem; width: 20%;">Vinverksamhet / Affärsstatus</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Subject Property -->
+                        <tr style="background: rgba(212, 175, 55, 0.03); border: 1px solid var(--accent-gold-border);">
+                            <td class="value" style="padding: 1.25rem 0.5rem; font-weight: bold;">Château Corbières (Mål)<br><span style="font-size: 0.8rem; color: var(--text-muted); font-weight: normal;">Thézan-des-Corbières, Aude</span></td>
+                            <td class="value" style="padding: 1.25rem 0.5rem; color: var(--accent-gold); font-weight: bold;">€2 995 000 <br><span style="font-size: 0.8rem; color: #ff7675; font-weight: normal;">(Mål: €2,5M)</span></td>
+                            <td class="value" style="padding: 1.25rem 0.5rem;">307 ha</td>
+                            <td class="value" style="padding: 1.25rem 0.5rem; color: #ff7675;"><strong>57 ha</strong><br><span style="font-size: 0.8rem; color: var(--text-muted);">250 ha är Natura 2000 (Obyggbar garrigue)</span></td>
+                            <td class="value" style="padding: 1.25rem 0.5rem;">2 155 m²<br><span style="font-size: 0.8rem; color: var(--text-muted);">Renoveringsbehov</span></td>
+                            <td class="value" style="padding: 1.25rem 0.5rem; color: #ff7675;"><strong>Ej aktiv.</strong> Vinhistorik finns, men pressar och vinkällare är tomma/obrukbara. Stort investeringsbehov.</td>
+                        </tr>
+                        <!-- Comp 1 -->
+                        <tr>
+                            <td class="value" style="padding: 1.25rem 0.5rem;">Château de Boutenac<br><span style="font-size: 0.8rem; color: var(--text-muted); font-weight: normal;">Boutenac, Aude (Grannkommunsgräns)</span></td>
+                            <td class="value" style="padding: 1.25rem 0.5rem;">€2 850 000</td>
+                            <td class="value" style="padding: 1.25rem 0.5rem;">42 ha</td>
+                            <td class="value" style="padding: 1.25rem 0.5rem; color: #2ecc71;"><strong>35 ha</strong><br><span style="font-size: 0.8rem; color: var(--text-muted);">Aktiva vinfält &amp; olivlundar (Ingen Natura 2000)</span></td>
+                            <td class="value" style="padding: 1.25rem 0.5rem;">1 200 m²<br><span style="font-size: 0.8rem; color: var(--text-muted);">Helrenoverat, aktivt B&amp;B</span></td>
+                            <td class="value" style="padding: 1.25rem 0.5rem; color: #2ecc71;"><strong>Aktiv drift.</strong> Genererar ca €180k/år i stabila agrara intäkter. Etablerat varumärke.</td>
+                        </tr>
+                        <!-- Comp 2 -->
+                        <tr>
+                            <td class="value" style="padding: 1.25rem 0.5rem;">Domaine de Fitou<br><span style="font-size: 0.8rem; color: var(--text-muted); font-weight: normal;">Fitou, Aude</span></td>
+                            <td class="value" style="padding: 1.25rem 0.5rem;">€1 950 000</td>
+                            <td class="value" style="padding: 1.25rem 0.5rem;">120 ha</td>
+                            <td class="value" style="padding: 1.25rem 0.5rem; color: #2ecc71;"><strong>120 ha</strong><br><span style="font-size: 0.8rem; color: var(--text-muted);">90 ha betesmark, 10 ha vinfält (Ingen Natura 2000)</span></td>
+                            <td class="value" style="padding: 1.25rem 0.5rem;">900 m²<br><span style="font-size: 0.8rem; color: var(--text-muted);">Gott skick</span></td>
+                            <td class="value" style="padding: 1.25rem 0.5rem; color: #2ecc71;"><strong>Aktiv vinkällare.</strong> Fungerande maskiner och lagerlokaler ingår i försäljningspriset.</td>
+                        </tr>
+                        <!-- Comp 3 -->
+                        <tr>
+                            <td class="value" style="padding: 1.25rem 0.5rem;">Château de Minerve<br><span style="font-size: 0.8rem; color: var(--text-muted); font-weight: normal;">Minervois, Hérault</span></td>
+                            <td class="value" style="padding: 1.25rem 0.5rem;">€3 200 000</td>
+                            <td class="value" style="padding: 1.25rem 0.5rem;">50 ha</td>
+                            <td class="value" style="padding: 1.25rem 0.5rem; color: #2ecc71;"><strong>50 ha</strong><br><span style="font-size: 0.8rem; color: var(--text-muted);">Park- och skogsmark (Ingen Natura 2000)</span></td>
+                            <td class="value" style="padding: 1.25rem 0.5rem;">1 800 m²<br><span style="font-size: 0.8rem; color: var(--text-muted);">Lyxskick</span></td>
+                            <td class="value" style="padding: 1.25rem 0.5rem; color: #2ecc71;"><strong>Aktivt hotell.</strong> Fullt fungerande hotell- och eventverksamhet i drift sedan 5 år.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Explaining the Valuation Adjustment -->
+            <div style="max-width: 900px; margin: 0 auto; color: var(--text-secondary); line-height: 1.7; font-size: 1rem; display: flex; flex-direction: column; gap: 1rem;">
+                <p>
+                    <strong>Varför utgångspriset på €2 995 000 är statistiskt felaktigt:</strong> När mäklaren marknadsför egendomen betonas 307 hektar mark och slottets vinhistorik. Men en djupare analys av fastighetskartan visar av de 307 hektaren är 250 hektar belagda med <strong>Natura 2000-restriktioner</strong>. Denna mark är helt obyggbar och har extremt lågt agrart värde (garrigue/hedmark värderas i genomsnitt till endast <strong>€1 000/ha</strong> i bergsområdena i Aude). 
+                </p>
+                <p>
+                    Dessutom är vinproduktionen i dagsläget <strong>icke-funktionell</strong>. Vinkällaren är tömd på utrustning och det saknas licenser och produktionslinjer. Att bygga upp ett fungerande vineri kräver ytterligare CapEx på mellan €600 000 och €900 000. Jämförbara châteaux som har aktiva vinrörelser eller saknar Natura 2000-begränsningar (t.ex. *Château de Boutenac* eller *Domaine de Fitou*) visar att det reella marknadsvärdet för Château Corbières i befintligt skick ligger runt **€2 500 000**.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: The "Useful Idiot" Strategy -->
+    <section id="useful-idiot-pitch" style="padding: 4rem 2rem; border-top: 1px solid var(--border-soft); background: rgba(39, 174, 96, 0.02);">
+        <div class="section-container">
+            <div class="section-header" style="margin-bottom: 3.5rem;">
+                <h2>Narrativet: Det Värdeskapande Förvärvet ("Nyttiga idioter")</h2>
+                <p>Hur vi presenterar vårt förvärv för mäklaren och lokalsamhället som en extremt positiv injektion som höjer värdet på grannfastigheterna och mäklarens egna intressen i regionen.</p>
+            </div>
+
+            <div class="agent-grid">
+                
+                <!-- Benefit 1: Managing Natura 2000 (Public Service) -->
+                <div class="agent-card" style="border-top: 4px solid var(--accent-gold);">
+                    <h3 style="color: #fff; font-size: 1.25rem; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        Naturvård &amp; Brandskydd
+                    </h3>
+                    <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">
+                        Att äga 250 ha Natura 2000-land är en stor ekonomisk förpliktelse. Vi tar över ansvaret för den lagstadgade brandröjningen (OLD), vilket drastiskt minskar brandrisken för hela dalen. Genom att införa <strong>ekologiskt naturbete för Aubrac-nötkreatur</strong> utför vi en kostnadsfri miljötjänst åt kommunen och grannarna som håller landskapet öppet.
+                    </p>
+                </div>
+
+                <!-- Benefit 2: Supporting Local Winegrowers -->
+                <div class="agent-card" style="border-top: 4px solid var(--accent-gold);">
+                    <h3 style="color: #fff; font-size: 1.25rem; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" stroke-width="2.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                        Lokalt Jordbrukssamarbete
+                    </h3>
+                    <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">
+                        Istället för att stänga ute lokalsamhället, kommer vi att <strong>arrendera ut</strong> de 3,4 ha vinfälten och 30 ha planteringsrätt till lokala unga odlare och kooperativ helt utan kostnad. Detta stödjer det lokala jordbruket, skapar lokala jobb och bidrar med råvaror till regionens vinkooperativ, vilket är precis vad SAFER vill se.
+                    </p>
+                </div>
+
+                <!-- Benefit 3: Massive Green CapEx -->
+                <div class="agent-card" style="border-top: 4px solid var(--accent-gold);">
+                    <h3 style="color: #fff; font-size: 1.25rem; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" stroke-width="2.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                        Privat miljöinvestering på €650k
+                    </h3>
+                    <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">
+                        Vi går in som de "nyttiga idioterna" som investerar <strong>650 000 euro</strong> av eget kapital för att konvertera fastigheten från oljeeldning till hållbar bergvärme (geotermi), restaurera det historiska 900-talskapellet och bygga upp ett exklusivt hotell. Dessa pengar bygger fastighetsvärde som höjer attraktionen och statusen för hela närområdet.
+                    </p>
+                </div>
+
+                <!-- Benefit 4: High-End Tourism Externalities -->
+                <div class="agent-card" style="border-top: 4px solid var(--accent-gold);">
+                    <h3 style="color: #fff; font-size: 1.25rem; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10zM2 12h20"/></svg>
+                        Värdeökning för grannarna
+                    </h3>
+                    <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;">
+                        Vår hotell- och ekoturisminvestering kommer att locka köpstarka internationella gäster till Thézan-des-Corbières. Detta skapar direkta intäkter till lokala restauranger, butiker och guider, samt ökar efterfrågan på andra fastigheter i området (vilket direkt gynnar mäklarens egna framtida affärer och lokala fastighetsinnehav).
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: French Pitch Letter Template -->
+    <section id="pitch-letter" style="padding: 4rem 2rem; border-top: 1px solid var(--border-soft); background: rgba(15, 21, 36, 0.4);">
+        <div class="section-container" style="max-width: 900px;">
+            <div class="section-header">
+                <h2>Formellt Förhandlingsbrev till Olivier Brunet</h2>
+                <p>Ett professionellt, franskt affärsbrev framtaget för att skickas till mäklaren. Brevet formulerar argumenten kring Natura 2000, investeringsbehovet och det lokala mervärdet för att motivera ett motbud på €2 500 000.</p>
+            </div>
+
+            <div style="background: var(--bg-secondary); border: 1px solid var(--border-soft); border-radius: 16px; padding: 2rem; margin-top: 2rem; position: relative;">
+                
+                <!-- Instruction Box -->
+                <div style="background: rgba(212, 175, 55, 0.05); border-left: 3px solid var(--accent-gold); padding: 1rem; border-radius: 6px; margin-bottom: 2rem; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.5;">
+                    <strong>Instruktion:</strong> Kopiera nedanstående text och skicka till Olivier Brunet (Barnes International) som bilaga eller e-post för att inleda den formella prisförhandlingen.
+                </div>
+
+                <!-- Letter Content -->
+                <blockquote style="font-family: var(--font-body); font-size: 0.95rem; color: var(--text-primary); line-height: 1.8; margin: 0; white-space: pre-line; text-align: left; border-left: 3px solid var(--border-soft); padding-left: 1.5rem;">
+<strong>À l'attention de M. Olivier BRUNET</strong>
+BARNES Propriétés &amp; Châteaux
+Occitanie, France
+
+<strong>Objet : Offre d'acquisition et propositions d'investissements locaux – Château Corbières</strong>
+
+Monsieur Brunet,
+
+À la suite de nos visites et à l'examen approfondi du dossier de diagnostic et des limites cadastrales du Château Corbières (situé sur les communes de Thézan-des-Corbières et Fonjoncouse), nous vous prions de bien vouloir trouver ci-dessous les termes de notre proposition d’achat.
+
+Nous portons un grand intérêt à cette propriété historique. Cependant, notre analyse technique et financière a mis en évidence plusieurs éléments qui impactent significativement la valeur réelle du domaine et nos projections d'investissements :
+
+<strong>1. La classification Natura 2000 (250 hectares) :</strong>
+L'analyse cadastrale révèle que 81,4 % de la propriété (soit 250 ha sur les 307 ha totaux) est classée en zone protégée Natura 2000. Cette classification interdit toute forme de développement commercial ou de construction sur ces parcelles. De plus, elle nous impose des obligations légales d'entretien et de débroussaillement (OLD) très lourdes financièrement pour prévenir les incendies, sans aucune contrepartie productive.
+
+<strong>2. L'inactivité de l'outil viticole :</strong>
+Bien que l'histoire du domaine soit liée au vin, la production y est aujourd'hui totalement inexistante. La cave de vinification est vide de tout équipement moderne et l'ensemble de l'outil de production nécessite une restructuration complète. Nous estimons le déficit de rénovation et d'investissement pour remettre en état une cave fonctionnelle entre 600 000 € et 900 000 €, ce qui nous oblige à exclure l'exploitation viticole directe de notre modèle économique.
+
+<strong>3. Notre programme d'investissements verts (650 000 € injectés dans la région) :</strong>
+Conscients de notre rôle de futurs propriétaires, nous ne venons pas en spéculateurs mais en partenaires de long terme pour le territoire de Thézan-des-Corbières. Nous prévoyons d’investir immédiatement 650 000 € de fonds propres pour :
+- Remplacer le système de chauffage obsolète au fioul par de la géothermie écologique (ADEME).
+- Restaurer le patrimoine bâti, notamment le château et la chapelle du IXe siècle.
+- Mettre en place un élevage extensif et écologique de vaches Aubrac sur la garrigue afin de nettoyer naturellement la zone Natura 2000 et sécuriser la vallée contre les feux.
+- Collaborer avec les jeunes viticulteurs locaux en leur louant gracieusement nos droits de plantation et nos 3,4 ha de vignes actives pour soutenir la cave coopérative locale.
+
+Nos investissements dans le tourisme durable et la transition écologique vont attirer une clientèle internationale à fort pouvoir d'achat, générant des retombées économiques directes pour les commerces locaux et valorisant l'ensemble du foncier des communes limitrophes.
+
+Considérant ces lourdes charges écologiques que nous acceptons de porter (gestion de 250 ha de Natura 2000) et le déficit industriel viticole, nous vous soumettons une offre ferme d'acquisition au prix de <strong>2 500 000 € (Deux millions cinq cent mille euros)</strong> net vendeur. 
+
+Cette offre est formulée sous la condition suspensive d'obtenir un préavis technique favorable d'ENEDIS pour notre projet agrivoltaïque au sol de secours (scénarios d'études transmis à vos services).
+
+We restons à votre entière disposition pour échanger sur la concrétisation de ce projet porteur de valeur pour la région.
+
+Je vous prie d'agréer, Monsieur Brunet, l'expression de nos salutations distinguées.
+
+[Nom de l'investisseur]
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="section-container">
+            <p>&copy; 2026 Frankrike - beslutsunderlag för förvärv eller inte. Drivs av Google Antigravity &amp; GitHub Pages.</p>
+            <p>GitHub-arkiv: <a href="https://github.com/magnus866/frenkrike" target="_blank">magnus866/frenkrike</a></p>
+        </div>
+    </footer>
+
+    <!-- Toggle Menu Script -->
+    <script>
+        function toggleMenu() {
+            document.querySelector('nav').classList.toggle('active');
+            document.querySelector('header').classList.toggle('header-active');
+        }
+    </script>
+</body>
+</html>
