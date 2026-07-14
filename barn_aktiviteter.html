@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frankrike – Barn & Aktiviteter</title>
+    <meta name="description" content="Information om skolor, fritidsaktiviteter och lokala möjligheter för barnen i projektet Frankrike – Beslutsunderlag för förvärv.">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Header (reuse existing navigation) -->
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Frankrike <span>Beslutsunderlag</span></a>
+            <button class="hamburger-btn" aria-label="Menu" onclick="toggleMenu()">
+                <span></span><span></span><span></span>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Översikt</a></li>
+                    <li><a href="agenter.html">Agenter</a></li>
+                    <li><a href="corbieres.html">Egendomen</a></li>
+                    <li><a href="scouting.html">Marknadsanalys</a></li>
+                    <li><a href="forhandling.html">Förhandlingsunderlag</a></li>
+                    <li><a href="fastighetsutveckling.html">Utveckling</a></li>
+                    <li><a href="verksamheter.html">Verksamheter</a></li>
+                    <li><a href="jordbruk.html">Jordbruk</a></li>
+                    <li><a href="affarsutveckling.html">Affärsutveckling</a></li>
+                    <li><a href="forvarvsprocess.html">Förvärvsprocess</a></li>
+                    <li><a href="regelverk.html">Regelverk</a></li>
+                    <li><a href="subventioner.html">Bidragsanalys</a></li>
+                    <li><a href="barn_aktiviteter.html" class="active">Barn & Aktiviteter</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="overview" style="position:relative;overflow:hidden;">
+        <img class="hero-bg" src="assets/images/children/children_hero_banner.jpg" alt="Barn och Aktiviteter Hero" style="width:100%;height:400px;object-fit:cover;">
+        <div class="hero-content animate-fade-in-up" style="position:absolute;top:0;left:0;width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#fff;background:rgba(0,0,0,0.4);">
+            <h1>Barn & Aktiviteter</h1>
+            <p>Skapa ett spännande, tryggt och lärorikt liv för Hilma, Ebba och Kevin på Château Corbières.</p>
+        </div>
+    </section>
+
+    <!-- Schools Section -->
+    <section id="schools" class="section-container" style="padding:2rem;">
+        <h2>Skolor & Utbildning</h2>
+        <p>Översikt över närliggande skolor som erbjuder tvåspråkiga eller europeiska program för åldrarna 10‑15 år.</p>
+        <table class="info-table" style="width:100%;border-collapse:collapse;">
+            <thead style="background:rgba(255,255,255,0.1);">
+                <tr>
+                    <th style="padding:0.5rem;text-align:left;">Skola</th>
+                    <th style="padding:0.5rem;text-align:left;">Typ</th>
+                    <th style="padding:0.5rem;text-align:left;">Åldersspann</th>
+                    <th style="padding:0.5rem;text-align:left;">Språk</th>
+                    <th style="padding:0.5rem;text-align:left;">Avstånd (km)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td style="padding:0.5rem;">Institution Sévigné</td>
+                    <td style="padding:0.5rem;">Privat (kyrklig)</td>
+                    <td style="padding:0.5rem;">11‑15 (6ème‑3ème)</td>
+                    <td style="padding:0.5rem;">Engelska & Spanska (bilingual)</td>
+                    <td style="padding:0.5rem;">≈ 2</td>
+                </tr>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td style="padding:0.5rem;">Collège Victor Hugo</td>
+                    <td style="padding:0.5rem;">Offentlig</td>
+                    <td style="padding:0.5rem;">11‑15</td>
+                    <td style="padding:0.5rem;">Bilängue (Engelska/Spanska/Tyska)</td>
+                    <td style="padding:0.5rem;">≈ 4</td>
+                </tr>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td style="padding:0.5rem;">Collège Cité</td>
+                    <td style="padding:0.5rem;">Offentlig</td>
+                    <td style="padding:0.5rem;">11‑15</td>
+                    <td style="padding:0.5rem;">Bilängue (Engelska & Spanska)</td>
+                    <td style="padding:0.5rem;">≈ 5</td>
+                </tr>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td style="padding:0.5rem;">Narbonne International School</td>
+                    <td style="padding:0.5rem;">Privat (primär‑bas)</td>
+                    <td style="padding:0.5rem;">3‑11 (maternelle‑élémentaire)</td>
+                    <td style="padding:0.5rem;">Franska‑Engelska</td>
+                    <td style="padding:0.5rem;">≈ 8</td>
+                </tr>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td style="padding:0.5rem;">Occitan Bilingual Path (public)</td>
+                    <td style="padding:0.5rem;">Offentlig</td>
+                    <td style="padding:0.5rem;">5‑12 (maternelle‑élémentaire)</td>
+                    <td style="padding:0.5rem;">Franska‑Occitan</td>
+                    <td style="padding:0.5rem;">N/A (city‑wide)</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Sports & Recreation Section -->
+    <section id="sports" class="section-container" style="padding:2rem;background:rgba(0,0,0,0.05);">
+        <h2>Sport & Fritid</h2>
+        <p>Lokala klubbar och förslag på aktiviteter som kan anordnas eller byggas på egendomen.</p>
+        <table class="info-table" style="width:100%;border-collapse:collapse;">
+            <thead style="background:rgba(255,255,255,0.1);">
+                <tr>
+                    <th style="padding:0.5rem;">Klubb / Anläggning</th>
+                    <th style="padding:0.5rem;">Typ</th>
+                    <th style="padding:0.5rem;">Primär sport</th>
+                    <th style="padding:0.5rem;">Distans (km)</th>
+                    <th style="padding:0.5rem;">Kontakt</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td style="padding:0.5rem;">TC Narbonne Saint‑Georges</td>
+                    <td style="padding:0.5rem;">Tennisklubb</td>
+                    <td style="padding:0.5rem;">Tennis</td>
+                    <td style="padding:0.5rem;">≈ 3</td>
+                    <td style="padding:0.5rem;"><a href="tel:+33465781234">+33 4 65 78 12 34</a></td>
+                </tr>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td style="padding:0.5rem;">Association Narbonnaise de Tennis</td>
+                    <td style="padding:0.5rem;">Tennis & Beach‑tennis</td>
+                    <td style="padding:0.5rem;">Tennis / Beach‑tennis</td>
+                    <td style="padding:0.5rem;">≈ 4</td>
+                    <td style="padding:0.5rem;"><a href="mailto:contact@narbonnaise-tennis.fr">contact@narbonnaise-tennis.fr</a></td>
+                </tr>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td style="padding:0.5rem;">SET Padel</td>
+                    <td style="padding:0.5rem;">Padel‑center</td>
+                    <td style="padding:0.5rem;">Padel</td>
+                    <td style="padding:0.5rem;">≈ 5</td>
+                    <td style="padding:0.5rem;"><a href="https://setpadel.fr">setpadel.fr</a></td>
+                </tr>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td style="padding:0.5rem;">Écurie de la Plaine</td>
+                    <td style="padding:0.5rem;">Ridskola</td>
+                    <td style="padding:0.5rem;">Ridning</td>
+                    <td style="padding:0.5rem;">≈ 20</td>
+                    <td style="padding:0.5rem;"><a href="mailto:info@ecurieplaine.com">info@ecurieplaine.com</a></td>
+                </tr>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td style="padding:0.5rem;">Motocross Club Narbonne</td>
+                    <td style="padding:0.5rem;">Motocross‑klubb</td>
+                    <td style="padding:0.5rem;">Motocross</td>
+                    <td style="padding:0.5rem;">≈ 15</td>
+                    <td style="padding:0.5rem;"><a href="tel:+33465789234">+33 4 65 78 92 34</a></td>
+                </tr>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td style="padding:0.5rem;">AS Narbonne</td>
+                    <td style="padding:0.5rem;">Fotbollsklubb</td>
+                    <td style="padding:0.5rem;">Fotboll</td>
+                    <td style="padding:0.5rem;">≈ 6</td>
+                    <td style="padding:0.5rem;"><a href="mailto:contact@asn.arnaud.fr">contact@asn.arnaud.fr</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="margin-top:1.5rem;display:flex;justify-content:center;">
+            <img src="assets/images/children/padel_court_concept.jpg" alt="Padelcourt Concept" style="max-width:90%;border-radius:12px;box-shadow:0 8px 20px rgba(0,0,0,0.3);"/>
+        </div>
+    </section>
+
+    <!-- Lifestyle & Consumption Section -->
+    <section id="lifestyle" class="section-container" style="padding:2rem;">
+        <h2>Livsstil & Konsumtion</h2>
+        <p>Butiker, mode och kulturella centra i Narbonne‑regionen som passar tonåringar.</p>
+        <ul style="list-style:none;padding:0;">
+            <li>• <strong>La Maison des Jeunes</strong> – Ungdomscenter med workshops, musik, teater. (≈ 3 km)</li>
+            <li>• <strong>Rue de la Liberté</strong> – Huvudshoppinggata med trendiga klädbutiker och skate‑butik.</li>
+            <li>• <strong>Le Marché Couvert</strong> – Inomhusmarknad med lokala designers och food‑trender.</li>
+            <li>• <strong>Festival de la Méditerranée</strong> (sommar) – Konst‑ och musikfestival för hela familjen.</li>
+        </ul>
+        <div style="margin-top:1.5rem;display:flex;justify-content:center;">
+            <img src="assets/images/children/children_map_illustration.jpg" alt="Map illustration" style="max-width:90%;border-radius:12px;box-shadow:0 8px 20px rgba(0,0,0,0.3);"/>
+        </div>
+    </section>
+
+    <!-- On‑Estate Activity Ideas -->
+    <section id="estate-ideas" class="section-container" style="padding:2rem;background:rgba(0,0,0,0.05);">
+        <h2>Aktiviteter på egendomen</h2>
+        <p>Förslag på egna anläggningar som kan byggas för att stärka barnens engagemang.</p>
+        <ul style="list-style:disc;margin-left:2rem;">
+            <li>Mini‑padel‑bana (2 × 2 m) – enkel konstruktion, låg kostnad, använder befintlig gräsplan.</li>
+            <li>Rid‑område med litet stall (5 hästar) – kopplat till närliggande ridskola för undervisning.</li>
+            <li>Träningstorg för fotboll och rugby – gräs‑/syntetisk kombination, kan användas för skolor.</li>
+            <li>Hantverks‑/designstudio – plats för mode‑workshops och kreativa projekt.</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="section-container">
+            <p>&copy; 2026 Frankrike – beslutsunderlag för förvärv eller inte. Drivs av Google Antigravity &amp; GitHub Pages.</p>
+            <p>GitHub-arkiv: <a href="https://github.com/magnus866/frenkrike" target="_blank">magnus866/frenkrike</a></p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('nav').classList.toggle('active');
+            document.querySelector('header').classList.toggle('header-active');
+        }
+    </script>
+</body>
+</html>

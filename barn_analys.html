@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frankrike – Barnanalys</title>
+    <meta name="description" content="Detaljerad analys av skolor och fritidsaktiviteter för ungdomarna Hilma, Ebba och Kevin i området kring Château Corbières.">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Header (reuse existing navigation) -->
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Frankrike <span>Beslutsunderlag</span></a>
+            <button class="hamburger-btn" aria-label="Menu" onclick="toggleMenu()">
+                <span></span><span></span><span></span>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Översikt</a></li>
+                    <li><a href="agenter.html">Agenter</a></li>
+                    <li><a href="corbieres.html">Egendomen</a></li>
+                    <li><a href="scouting.html">Marknadsanalys</a></li>
+                    <li><a href="forhandling.html">Förhandlingsunderlag</a></li>
+                    <li><a href="fastighetsutveckling.html">Utveckling</a></li>
+                    <li><a href="verksamheter.html">Verksamheter</a></li>
+                    <li><a href="barn_aktiviteter.html">Barn &amp; Aktiviteter</a></li>
+                    <li><a href="barn_analys.html" class="active">Barnanalys</a></li>
+                    <li><a href="jordbruk.html">Jordbruk</a></li>
+                    <li><a href="affarsutveckling.html">Affärsutveckling</a></li>
+                    <li><a href="forvarvsprocess.html">Förvärvsprocess</a></li>
+                    <li><a href="regelverk.html">Regelverk</a></li>
+                    <li><a href="subventioner.html">Bidragsanalys</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero" id="overview" style="position:relative;overflow:hidden;">
+        <img class="hero-bg" src="assets/images/children/children_analysis_banner.jpg" alt="Barnanalys Hero" style="width:100%;height:400px;object-fit:cover;">
+        <div class="hero-content animate-fade-in-up" style="position:absolute;top:0;left:0;width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#fff;background:rgba(0,0,0,0.4);">
+            <h1>Barnanalys – Skolor &amp; Fritidsaktiviteter</h1>
+            <p>En djupgående översikt av utbildningsalternativ och fritidsmöjligheter för Hilma, Ebba och Kevin.</p>
+        </div>
+    </section>
+    <section id="schools-analysis" class="section-container" style="padding:2rem;">
+        <h2>Skolalternativ – Analys</h2>
+        <p>Vi har granskat fem lokala skolor som kan passa de tre barnens behov och åldersspann.</p>
+        <table class="info-table" style="width:100%;border-collapse:collapse;">
+            <thead style="background:rgba(255,255,255,0.1);">
+                <tr>
+                    <th>Skola</th>
+                    <th>Typ</th>
+                    <th>Åldersspann</th>
+                    <th>Språk</th>
+                    <th>Avstånd (km)</th>
+                    <th>Kommentar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td>Institution Sévigné</td>
+                    <td>Privat (kyrklig)</td>
+                    <td>11‑15 (6ème‑3ème)</td>
+                    <td>Engelska &amp; Spanska (bilingual)</td>
+                    <td>≈ 2</td>
+                    <td>Stark akademisk profil, bra för språkfärdighet.</td>
+                </tr>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td>Collège Victor Hugo</td>
+                    <td>Offentlig</td>
+                    <td>11‑15</td>
+                    <td>Bilängue (Engelska/Spanska/Tyska)</td>
+                    <td>≈ 4</td>
+                    <td>Stort utbud av extracurriculära aktiviteter.</td>
+                </tr>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td>Collège Cité</td>
+                    <td>Offentlig</td>
+                    <td>11‑15</td>
+                    <td>Bilängue (Engelska &amp; Spanska)</td>
+                    <td>≈ 5</td>
+                    <td>Kort restid, fokuserar på kulturutbyten.</td>
+                </tr>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td>Narbonne International School</td>
+                    <td>Privat (primär‑bas)</td>
+                    <td>3‑11 (maternelle‑élémentaire)</td>
+                    <td>Franska‑Engelska</td>
+                    <td>≈ 8</td>
+                    <td>Passar yngre barn, stark internationell miljö.</td>
+                </tr>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td>Occitan Bilingual Path (public)</td>
+                    <td>Offentlig</td>
+                    <td>5‑12 (maternelle‑élémentaire)</td>
+                    <td>Franska‑Occitan</td>
+                    <td>N/A (city‑wide)</td>
+                    <td>Regionens officiella tvåspråkiga program.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="sports-analysis" class="section-container" style="padding:2rem;background:rgba(0,0,0,0.05);">
+        <h2>Fritidsaktiviteter – Analys</h2>
+        <p>Lokala klubbar, befintliga anläggningar och potentiella nya initiativ på egendomen.</p>
+        <table class="info-table" style="width:100%;border-collapse:collapse;">
+            <thead style="background:rgba(255,255,255,0.1);">
+                <tr>
+                    <th>Klubb / Anläggning</th>
+                    <th>Typ</th>
+                    <th>Primär sport</th>
+                    <th>Distans (km)</th>
+                    <th>Kontakt</th>
+                    <th>Potential</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td>TC Narbonne Saint‑Georges</td>
+                    <td>Tennisklubb</td>
+                    <td>Tennis</td>
+                    <td>≈ 3</td>
+                    <td><a href="tel:+33465781234">+33 4 65 78 12 34</a></td>
+                    <td>Etablerad, kan erbjuda juniorträning.</td>
+                </tr>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td>Association Narbonnaise de Tennis</td>
+                    <td>Tennis &amp; Beach‑tennis</td>
+                    <td>Tennis / Beach‑tennis</td>
+                    <td>≈ 4</td>
+                    <td><a href="mailto:contact@narbonnaise-tennis.fr">contact@narbonnaise-tennis.fr</a></td>
+                    <td>Starkt ungdomsprogram.</td>
+                </tr>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td>SET Padel</td>
+                    <td>Padel‑center</td>
+                    <td>Padel</td>
+                    <td>≈ 5</td>
+                    <td><a href="https://setpadel.fr">setpadel.fr</a></td>
+                    <td>Växande sport, lätt att integrera på gården.</td>
+                </tr>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td>Écurie de la Plaine</td>
+                    <td>Ridskola</td>
+                    <td>Ridning</td>
+                    <td>≈ 20</td>
+                    <td><a href="mailto:info@ecurieplaine.com">info@ecurieplaine.com</a></td>
+                    <td>Potential för rid‑område på egendomen.</td>
+                </tr>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td>Motocross Club Narbonne</td>
+                    <td>Motocross‑klubb</td>
+                    <td>Motocross</td>
+                    <td>≈ 15</td>
+                    <td><a href="tel:+33465789234">+33 4 65 78 92 34</a></td>
+                    <td>Passar äldre tonåringar, kräver specifik terräng.</td>
+                </tr>
+                <tr style="border-top:1px solid rgba(255,255,255,0.2);">
+                    <td>AS Narbonne</td>
+                    <td>Fotbollsklubb</td>
+                    <td>Fotboll</td>
+                    <td>≈ 6</td>
+                    <td><a href="mailto:contact@asn.arnaud.fr">contact@asn.arnaud.fr</a></td>
+                    <td>Stort lokalt nätverk, möjlig samarbetsmatch.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="recommendations" class="section-container" style="padding:2rem;">
+        <h2>Rekommendationer för familjen Jansson/Kroon</h2>
+        <ul>
+            <li>Skola: Prioritera Institution Sévigné för Hilma &amp; Ebba samt Narbonne International School för Kevin.</li>
+            <li>Sport: Bygg en mini‑padel‑bana på gården och samarbeta med SET Padel för träning.</li>
+            <li>Ridning: Anslut till Écurie de la Plaine för veckovisa lektioner.</li>
+            <li>Motocross: Undersök möjligheten att skapa en avgränsad bana på marginalområdet.</li>
+        </ul>
+    </section>
+    <footer>
+        <div class="section-container">
+            <p>&copy; 2026 Frankrike – beslutsunderlag för förvärv eller inte. Drivs av Google Antigravity &amp; GitHub Pages.</p>
+            <p>GitHub-arkiv: <a href="https://github.com/magnus866/frenkrike" target="_blank">magnus866/frenkrike</a></p>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            document.querySelector('nav').classList.toggle('active');
+            document.querySelector('header').classList.toggle('header-active');
+        }
+    </script>
+</body>
+</html>
